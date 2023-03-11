@@ -1,0 +1,24 @@
+body {
+    background-color: #D2D2D2;
+}
+footer {
+    clear: both;
+    background: #434343;
+    border: 0.3rem solid #1B1B1B;
+    border-radius: 0.5rem;
+    height: 1rem;
+}
+header {
+    clear: both;
+    background: #1B1B1B;
+    border: 0.3rem solid #434343;
+    border-radius: 0.5rem;
+    height: 3rem;
+}
+img#logo1 {
+    position: relative;
+    display: block;
+    height: 3rem; 
+    left: 12px;
+    top: 0px;
+}
