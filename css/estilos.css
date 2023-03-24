@@ -1,24 +1,39 @@
-body {
-    background-color: #D2D2D2;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
 }
-footer {
-    clear: both;
-    background: #434343;
-    border: 0.3rem solid #1B1B1B;
-    border-radius: 0.5rem;
-    height: 1rem;
+:root{
+    --primary: #A91016;
+    --primary-light: #D7494F;
+    --black: #1B1B1B;
+    --white: #D2D2D2;
+    --grey: #6B6B6B;
 }
+
+/*HEADER*/
 header {
-    clear: both;
-    background: #1B1B1B;
-    border: 0.3rem solid #434343;
-    border-radius: 0.5rem;
-    height: 3rem;
+    border-bottom: 6rem solid var(--grey);
+    border-radius: 1rem;
+    display: flex;
+    height: 6rem;
 }
-img#logo1 {
-    position: relative;
-    display: block;
-    height: 3rem; 
-    left: 12px;
-    top: 0px;
-}
+
+
+    /*NAVIGATION*/
+
+
+
+
+
+/*BODY/MAIN*/
+
+
+
+
+
+/*FOOTER*/
