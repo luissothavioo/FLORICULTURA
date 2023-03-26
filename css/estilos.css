@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
-*{
+@import url('https://fonts.googleapis.com/css2?family=Gravitas+One&display=swap');
+
+* {
     margin: 0;
     padding: 0;
     outline: 0;
@@ -7,6 +9,7 @@
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
 }
+
 :root {
     --primary: #A91016;
     --primary-light: #D7494F;
@@ -22,45 +25,153 @@ header {
     display: flex;
     background-color: var(--black);
     border-bottom: 0.7rem solid var(--grey);
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
 }
+
 header picture {
     width: 2rem;
-    padding: 0.5rem 4rem;
+    padding: 0.5rem 0rem 0.5rem 5rem;
 }
+
 header picture img {
     width: 4rem;
 }
-    /*NAVIGATION*/
-    header nav {
-        display: flex;
-        align-items: center;
-        width: 100%;
-        justify-content: center;
-    }
-    
-    ul {
-        list-style-type: none;
-        padding-top: 2rem;
-        display: flex;
-        align-items: right;
-        height: 100%;
-        font-size: large ;
-    }
-    ul li a {
-        color: white;
-        padding: 1rem;
-    }
+
+
+/*NAVIGATION*/
+header nav {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.center {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    font-size: large;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+}
+
+ul li a:hover {
+    text-decoration: none;
+    color: var(--primary);
+}
+
+header nav ul div h2 {
+    color: white;
+}
 
 /*BODY/MAIN*/
 body {
     background-color: var(--white);
 }
 
+main {
+    min-height: calc(100vh - 10rem);
+}
+
+main section {
+    display: flex;
+    justify-content: center;
+    padding: 3rem;
+    gap: 2rem;
+}
+
+main section div {
+    display: block;
+    background: rgb(168, 15, 21);
+    background: linear-gradient(220deg, rgba(168, 15, 21, 0.9) 29%, rgba(215, 73, 79, 0.8) 100%);
+    border-radius: 2rem;
+}
+
+main section div h2 {
+    font-family: "Gravitas One";
+    font-size: 50px;
+    color: #300507;
+    padding: 2rem;
+    pointer-events: none;
+}
+
+main section a picture {
+    display: block;
+    height: 253px;
+    width: 380px;
+    background: rgb(168, 15, 21);
+    background: linear-gradient(220deg, rgba(168, 15, 21, 1) 29%, rgba(215, 73, 79, 1) 100%);
+    border-radius: 2rem;
+}
+
+main section a picture img {
+    height: 253px;
+    width: 380px;
+    border-radius: 2rem;
+    padding: 0.2rem;
+}
+
+main section a picture img:hover {
+    height: 253px;
+    width: 380px;
+    border-radius: 2rem;
+    padding: 0.4rem;
+
+}
+
+/*PAGINA 1*/
+.grid {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 1rem;
+}
+
+main section article {
+    background-color: rgba(215, 73, 79, 0.7);
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+main section article h5 strong {
+    font-weight: bolder;
+}
 
 /*FOOTER*/
 footer {
-    height: 3rem;
+    height: 4rem;
+    width: 100%;
     display: flex;
+    /* bottom: 0rem;
+    position: absolute; */
     background-color: var(--grey);
-    border-bottom: 0.7rem solid var(--black);
+    border-top: 0.7rem solid var(--black);
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+}
+
+.sociais {
+    height: 4rem;
+    width: 50%;
+    padding: 0.5rem 0rem 0.5rem 10%;
+}
+
+.sociais img {
+    width: 3rem;
+    padding: 0rem 0.5rem;
+}
+
+.logo_pe {
+    height: 4rem;
+    width: 50%;
+    padding: 0.5rem 5% 0.5rem 40%;
+}
+
+.logo_pe img {
+    width: 3rem;
+    padding: 0rem 0.5rem;
 }
