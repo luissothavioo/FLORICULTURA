@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Gravitas+One&display=swap');
 
+
 * {
     margin: 0;
-    padding: 0;
     outline: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
@@ -73,7 +73,6 @@ header nav ul div h2 {
 body {
     background-color: var(--white);
 }
-
 main {
     min-height: calc(100vh - 10rem);
 }
@@ -82,7 +81,7 @@ main section {
     display: flex;
     justify-content: center;
     padding: 3rem;
-    gap: 2rem;
+    gap: 5rem;
 }
 
 main section div {
@@ -132,13 +131,25 @@ main section a picture img:hover {
 }
 
 main section article {
-    background-color: rgba(215, 73, 79, 0.7);
+    background-color: rgba(173, 48, 48, 0.623);
     border-radius: 1rem;
     padding: 1rem;
 }
 
+main section article h5  {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
 main section article h5 strong {
     font-weight: bolder;
+}
+
+main section article picture img{
+    height: 253px;
+    width: 380px;
+    border-radius: 1rem;
+    padding: 0.2rem;
 }
 
 /*FOOTER*/
@@ -146,12 +157,12 @@ footer {
     height: 4rem;
     width: 100%;
     display: flex;
-    /* bottom: 0rem;
-    position: absolute; */
     background-color: var(--grey);
     border-top: 0.7rem solid var(--black);
     border-top-right-radius: 1rem;
     border-top-left-radius: 1rem;
+    position: fixed;
+    bottom: 0;
 }
 
 .sociais {
