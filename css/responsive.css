@@ -1,0 +1,36 @@
+@media (max-width: 1720px){
+    main > section.grid {
+        grid-template-columns: auto auto auto;
+    }
+}
+@media(max-width: 1250px){
+    header{
+        height: 4rem;
+    }
+    header picture img {
+        width: 2rem;
+    }
+    main >section.grid {
+        grid-template-columns: auto auto;
+    }
+}
+@media(max-width: 830px){
+    main > section.grid {
+        grid-template-columns: auto;
+    }
+    footer.pag1{
+        height: 2rem;
+    }
+    footer.pag1 div.sociais {
+        height: 100%;
+        width: 50%;
+    }
+    footer.pag1 div.sociais img {
+        width: 1.5rem;
+    }
+}
+@media(max-width: 840px){
+    main > section.dex {
+        grid-template-columns: auto auto;
+    }
+}

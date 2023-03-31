@@ -23,6 +23,7 @@
 header {
     height: 6rem;
     display: flex;
+    flex-direction: row;
     background-color: var(--black);
     border-bottom: 0.7rem solid var(--grey);
     border-bottom-right-radius: 1rem;

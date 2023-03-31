@@ -1,0 +1,11 @@
+header nav input#menu-toggle {
+    display: none;
+}
+@media (max-width: 840px){
+    header nav{
+        position: fixed;
+        margin-top: 1rem;
+        align-items: baseline;
+    }
+    
+}
