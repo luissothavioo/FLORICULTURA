@@ -31,6 +31,6 @@
 }
 @media(max-width: 840px){
     main > section.dex {
-        grid-template-columns: auto auto;
+        grid-template-columns: auto;
     }
 }
