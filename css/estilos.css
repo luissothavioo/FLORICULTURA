@@ -74,12 +74,14 @@ header nav ul div h2 {
 body {
     background-color: var(--white);
 }
+
 main {
     min-height: calc(100vh - 10rem);
 }
 
 main section {
-    display: flex;
+    display: grid;
+    grid-template-columns: auto auto;
     justify-content: center;
     padding: 3rem;
     gap: 5rem;
@@ -137,7 +139,7 @@ main section article {
     padding: 1rem;
 }
 
-main section article h5  {
+main section article h5 {
     text-align: center;
     font-size: 1.5rem;
 }
@@ -146,7 +148,7 @@ main section article h5 strong {
     font-weight: bolder;
 }
 
-main section article picture img{
+main section article picture img {
     height: 253px;
     width: 380px;
     border-radius: 1rem;
